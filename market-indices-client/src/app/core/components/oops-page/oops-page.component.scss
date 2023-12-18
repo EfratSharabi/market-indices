@@ -1,0 +1,17 @@
+.oops-page {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .oops-page-title {
+        font-size: 50px;
+        margin: 15px 0;
+    }
+
+    .oops-page-message {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+}

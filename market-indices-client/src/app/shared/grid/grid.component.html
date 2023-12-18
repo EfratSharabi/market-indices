@@ -1,0 +1,11 @@
+<table mat-table [dataSource]="rows" class="mat-elevation-z8">
+ 
+    <ng-container *ngFor="let column of columns" [matColumnDef]="column.name">
+      <th mat-header-cell *matHeaderCellDef> {{ column.alias | translate }} </th>
+      <td mat-cell *matCellDef="let element" [class]="column.class"> {{column.transform ? column.transform(element[column.name]) : element[column.name] }} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  

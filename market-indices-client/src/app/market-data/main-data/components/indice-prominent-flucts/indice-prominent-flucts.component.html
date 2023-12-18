@@ -1,0 +1,25 @@
+<div class="mi-indice-prominent-flucts">
+    <h3 class="mi-indice-prominent-flucts-title">{{ 'prominent-flucts.title' | translate }}</h3>
+    <div class="mi-securities">
+        <mat-card class="mi-security">
+            <span class="security-title">{{ 'prominent-flucts.turn-over' | translate }}</span>
+            <span class="security-name">{{ mostActiveSecurity.name }}</span>
+            <span class="security-turn-over">{{ mostActiveSecurity.turnOver | number }}</span>
+            <span class="security-rate">{{ mostActiveSecurity.rate | number }} {{ 'prominent-flucts.rate-label' | translate }}</span>
+        </mat-card>
+
+        <mat-card class="mi-security">
+            <span class="security-title">{{ 'prominent-flucts.gaining' | translate }}</span>
+            <span class="security-name">{{ topGainerSecurity.name }}</span>
+            <span class="security-change gaining">{{ topGainerSecurity.change | indiceChange }}</span>
+            <span class="security-rate">{{ topGainerSecurity.rate | number }} {{ 'prominent-flucts.rate-label' | translate }}</span>
+        </mat-card>
+
+        <mat-card class="mi-security">
+            <span class="security-title">{{ 'prominent-flucts.declining' | translate }}</span>
+            <span class="security-name">{{ topDeclinerSecurity.name }}</span>
+            <span class="security-change declining">{{ topDeclinerSecurity.change | indiceChange}}</span>
+            <span class="security-rate">{{ topDeclinerSecurity.rate | number }} {{ 'prominent-flucts.rate-label' | translate }}</span>
+        </mat-card>
+    </div>
+</div>

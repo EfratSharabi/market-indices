@@ -1,0 +1,34 @@
+{
+    "side-menu": {
+        "main-data": "Main Data",
+        "index-composition": "Index Composition"
+    },
+    "indice": {
+        "last-rate": "Last Rate",
+        "change": "Change",
+        "turn-over":"Turnover"
+    },
+    "prominent-flucts": {
+        "title": "Most Active Index Shared",
+        "turn-over": "Most Active",
+        "gaining": "Top Gaining",
+        "declining": "Top Declining",
+        "rate-label": "pennies"
+    },
+    "index-composition": {
+        "title": "Index Composition",
+        "columns": {
+            "name": "Index Name",
+            "id": "Index Value",
+            "weight": "Weight",
+            "marketCap":"Market Cap",
+            "turnOver": "Turnover",
+            "change": "Change",
+            "rate":"Last Rate"
+        }
+    },
+    "oops-page" : {
+        "title": "Oops....",
+        "message": "We couldn't find what you searched"
+    }
+}

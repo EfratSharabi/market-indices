@@ -1,0 +1,8 @@
+@use '../../../variables' as variables;
+
+.index-composition-title {
+    color: variables.$I200;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

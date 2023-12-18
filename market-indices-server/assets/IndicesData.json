@@ -1,0 +1,178 @@
+{
+  "Indices": [
+    {
+      "id": 142,
+      "name": "TA-35",
+      "lastRate": 1779.98,
+      "change": -0.18,
+      "turnOver": 291295.77,
+      "chartData": [
+        {
+          "date": "06/12/2023",
+          "rate": 1783.15
+        },
+        {
+          "date": "07/12/2023",
+          "rate": 1792.92
+        },
+        {
+          "date": "10/12/2023",
+          "rate": 1805.3
+        },
+        {
+          "date": "11/12/2023",
+          "rate": 1792.92
+        },
+        {
+          "date": "12/12/2023",
+          "rate": 1783.15
+        }
+      ],
+      "indexComposition": [
+        {
+          "name": "NICE",
+          "id": "273011",
+          "weight": 7.80,
+          "marketCap": 47036,
+          "turnOver": 13313,
+          "change": 0.04,
+          "rate": 74300
+        },
+        {
+          "name": "POALIM",
+          "id": "662577",
+          "weight": 7.00,
+          "marketCap": 41442,
+          "turnOver": 23873,
+          "change": -0.19,
+          "rate": 3093
+        },
+        {
+          "name": "LEUMI",
+          "id": "604611",
+          "weight": 6.80,
+          "marketCap": 41879,
+          "turnOver": 26294,
+          "change": -0.33,
+          "rate": 2741
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "TA-125",
+      "lastRate": 1796.72,
+      "change": -0.25,
+      "turnOver": 432006.22,
+      "chartData": [
+        {
+          "date": "06/12/2023",
+          "rate": 1835.22
+        },
+        {
+          "date": "07/12/2023",
+          "rate": 1831.77
+        },
+        {
+          "date": "10/12/2023",
+          "rate": 1831.21
+        },
+        {
+          "date": "11/12/2023",
+          "rate": 1811.77
+        },
+        {
+          "date": "12/12/2023",
+          "rate": 1811.77
+        }
+      ],
+      "indexComposition": [
+        {
+          "name": "TEVA",
+          "id": "629014",
+          "weight": 4.86,
+          "marketCap": 39600,
+          "turnOver": 6219463,
+          "change": 1.42,
+          "rate": 3583
+        },
+        {
+          "name": "DISCOUNT",
+          "id": "691212",
+          "weight": 4.74,
+          "marketCap": 21870,
+          "turnOver": 18879344,
+          "change": -0.28,
+          "rate": 1763
+        },
+        {
+          "name": "NOVA",
+          "id": "1084557",
+          "weight": 3.36,
+          "marketCap": 14040,
+          "turnOver": 3383619,
+          "change": -0.45,
+          "rate": 48300
+        }
+      ]
+    },
+    {
+      "id": 708,
+      "name": "Tel-Bond 40",
+      "lastRate": 354.30,
+      "change": 0.2,
+      "turnOver": 46276.73,
+      "chartData": [
+        {
+          "date": "06/12/2023",
+          "rate": 355.41
+        },
+        {
+          "date": "07/12/2023",
+          "rate": 354.74
+        },
+        {
+          "date": "10/12/2023",
+          "rate": 353.42
+        },
+        {
+          "date": "11/12/2023",
+          "rate": 352.99
+        },
+        {
+          "date": "12/12/2023",
+          "rate": 353.59
+        }
+      ],
+      "indexComposition": [
+        {
+          "name": "AZRIELI B5",
+          "id": "1156603",
+          "weight": 3.45,
+          "marketCap": 3020716,
+          "turnOver": 905472,
+          "change": 0.25,
+          "rate": 109.84
+        },
+        {
+          "name": "ELECTRIC B34",
+          "id": "1196781",
+          "weight": 3.65,
+          "marketCap": 2584712,
+          "turnOver": 1466320,
+          "change": 0.26,
+          "rate": 101.38
+        },
+        {
+          "name": "AMOT B8",
+          "id": "1172782",
+          "weight": 3.33,
+          "marketCap": 2359491,
+          "turnOver": 42597,
+          "change": 0.6,
+          "rate": 97.61
+        }
+      ]
+    }
+  ]
+}

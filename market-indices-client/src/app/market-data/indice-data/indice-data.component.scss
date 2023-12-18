@@ -1,0 +1,37 @@
+@use '../../../variables' as variables;
+
+.mi-indice-data {
+    .title {
+        text-align: center;
+        font-weight: bold;
+        color: variables.$I150;
+    }
+
+    .indice-data-strip {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+
+        .indice-data {
+            display: flex;
+            flex-flow: column;
+            padding: 30px;
+            align-items: flex-start;
+
+            .indice-data-label {
+                color: variables.$G125;
+                font-size: 16px;
+            }
+            .indice-data-value {
+                direction: ltr;
+                color: variables.$I200;
+                font-weight: bold;
+                font-size: 20px;
+
+                &.indice-change {
+                    color: variables.$P100;
+                }
+            }
+        }
+    }
+}

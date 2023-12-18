@@ -1,0 +1,13 @@
+.mi-market-data {
+    display: flex;
+    padding: 20px !important;
+
+    .mi-side-menu-container {
+        width: 30%;
+    }
+
+    .mi-main-view-container {
+        width: 70%;
+        padding: 0 100px;
+    }
+}

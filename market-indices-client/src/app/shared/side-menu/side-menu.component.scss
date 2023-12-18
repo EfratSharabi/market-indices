@@ -1,0 +1,27 @@
+@use '../../../variables' as variables;
+
+.mat-expansion-panel {
+
+    color: variables.$I200;
+
+    &.mat-expansion-panel-spacing {
+        margin: 0;
+    }
+
+    .mi-panel-content {
+        a.item-link {
+            color: inherit;
+            text-decoration: none;
+            display: flex;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &.active {
+                color: variables.$P100;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+{
+    "side-menu": {
+        "main-data": "נתונים עיקריים",
+        "index-composition": "הרכב המדד"
+    },
+    "indice": {
+        "last-rate": "מדד אחרון",
+        "change": "שינוי",
+        "turn-over": "מחזור (אלפי ₪)"
+    },
+    "prominent-flucts": {
+        "title": "תנועות בולטות במדד",
+        "turn-over": "מחזור",
+        "gaining": "עולה",
+        "declining": "יורדת",
+        "rate-label": "אג'"
+    },
+    "index-composition": {
+        "title": "הרכב מדד",
+        "columns": {
+            "name": "שם נייר",
+            "id": "מס' נייר",
+            "weight": "משקל",
+            "marketCap": "שווי שוק",
+            "turnOver": "מחזור",
+            "change": "שינוי",
+            "rate": "שער אחרון"
+        }
+    },
+    "oops-page" : {
+        "title": "אופס...",
+        "message": "לא הצלחנו למצוא מה שחיפשת"
+    }
+}

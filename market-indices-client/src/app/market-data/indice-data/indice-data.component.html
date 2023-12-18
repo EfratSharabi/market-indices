@@ -1,0 +1,20 @@
+<div class="mi-indice-data">
+    <h1 class="title">{{ indice.name }}</h1>
+    <mat-card class="indice-data-strip">
+        <div class="indice-data indice-last-rate">
+            <span class="indice-data-label">{{ 'indice.last-rate' | translate }}</span>
+            <span class="indice-data-value">{{ indice.lastRate | number }}</span>
+            <span></span>
+        </div>
+
+        <div class="indice-data indice-change">
+            <span class="indice-data-label">{{ 'indice.change' | translate }}</span>
+            <span class="indice-data-value indice-change">{{ indice.change | indiceChange }}</span>
+        </div>
+
+        <div class="indice-data last-turn-over">
+            <span class="indice-data-label">{{ 'indice.turn-over' | translate }}</span>
+            <span class="indice-data-value">{{ indice.turnOver | number }}</span>
+        </div>
+    </mat-card>
+</div>

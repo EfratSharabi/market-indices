@@ -1,0 +1,22 @@
+<div class="mi-side-menu" class="example-headers-align" multi>
+    <mat-accordion >
+        <mat-expansion-panel *ngFor="let item of items">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{ item.alias }}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="mi-panel-content">
+                <a *ngFor="let link of item.links"
+                [routerLink]="link.routerLink"
+                routerLinkActive="active"
+                class="item-link">
+                    {{ link.alias | translate }}
+                </a>
+                <!-- <a [routerLink]="['/home/main-data']">{{ 'side-menu.main-data' | translate }}</a>
+            <a [routerLink]="['home/indice-composition']">{{ 'side-menu.indice-composition' | translate }}</a> -->
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

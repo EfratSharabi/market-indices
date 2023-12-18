@@ -1,0 +1,47 @@
+@use '../../../../../variables' as variables;
+
+.mi-indice-prominent-flucts {
+
+    .mi-indice-prominent-flucts-title {
+        text-align: center;
+        margin: 20px 0;
+        color: variables.$I200;
+        font-weight: bold;
+    }
+
+    .mi-securities {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+
+        .mi-security {
+            padding: 20px 50px;
+            align-items: center;
+            color: variables.$I200;
+
+            .security-title {
+                font-weight: bold;
+            }
+
+            .security-turn-over {
+                font-weight: bold;
+            }
+
+            .security-change {
+                direction: ltr;
+                font-weight: bold;
+
+                &.gaining {
+                    color: green;
+                }
+
+                &.declining {
+                    color: variables.$P100;
+                }
+            }
+        }
+    }
+
+
+
+}
