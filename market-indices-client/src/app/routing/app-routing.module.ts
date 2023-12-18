@@ -26,7 +26,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: supportedLangs.EN,
+    redirectTo: supportedLangs.HE,
     pathMatch: 'full'
   }
 ];
